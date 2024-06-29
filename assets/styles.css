@@ -73,7 +73,7 @@ main h1 {
 }
 
 #toggle-switch {
-    width: 60px;
+    width: 50px;
     height: 30px;
     color: var(--grayish-blue);
     background-color: var(--linear-gradient2);
@@ -93,10 +93,11 @@ main h1 {
     left: 0;
     margin-left: 5px;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 #toggle:checked~.circle {
-    left: 30px;
+    left: 20px;
 }
 
 #toggle:checked~#toggle-switch {
